@@ -7,7 +7,7 @@ private:
 public:
 	DinArr();
 	DinArr(int);
-	DinArr(const DinArr);
+	DinArr(const DinArr&);
 	~DinArr();
 
 	void Input();
